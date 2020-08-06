@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ae2f6f48cd45439e96db913b22ef492a" Name="Diagram">
+        <EntityTypeShape EntityType="SqlServerCompactEditionTest.Entity.T_SYS_USER" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SqlServerCompactEditionTest.Entity.T_SYS_ROLE" Width="1.5" PointX="0.75" PointY="3.875" />
+        <AssociationConnector Association="SqlServerCompactEditionTest.Entity.T_RS_USER_ROLE" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

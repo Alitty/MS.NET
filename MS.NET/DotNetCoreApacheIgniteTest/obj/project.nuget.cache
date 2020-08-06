@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8htCqRtvqO02HJbY0vvn+cpiKU6JSr6hvjZqX9cmpwEj+I6jJfdT5Snx8zBUW6O5FoY/kQja06Mz9RC/fOLrKQ==",
+  "success": true,
+  "projectFilePath": "D:\\MS.NET\\MS.NET\\DotNetCoreApacheIgniteTest\\DotNetCoreApacheIgniteTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\superman\\.nuget\\packages\\apache.ignite\\2.8.1\\apache.ignite.2.8.1.nupkg.sha512",
+    "C:\\Users\\superman\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\superman\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SqlServerCompactEditionTestEntityStoreContainer" CdmEntityContainer="MyDbContext">
+    <EntitySetMapping Name="T_SYS_USER">
+      <EntityTypeMapping TypeName="SqlServerCompactEditionTest.Entity.T_SYS_USER">
+        <MappingFragment StoreEntitySet="T_SYS_USER">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_ROLE">
+      <EntityTypeMapping TypeName="SqlServerCompactEditionTest.Entity.T_SYS_ROLE">
+        <MappingFragment StoreEntitySet="T_SYS_ROLE">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="T_RS_USER_ROLE" TypeName="SqlServerCompactEditionTest.Entity.T_RS_USER_ROLE" StoreEntitySet="T_RS_USER_ROLE">
+      <EndProperty Name="T_SYS_USER">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="T_SYS_ROLE">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

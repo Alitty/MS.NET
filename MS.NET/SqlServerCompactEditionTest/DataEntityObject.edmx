@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SqlServerCompactEditionTest.Entity.Store" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="T_RS_USER_ROLE">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="RoleId" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="T_SYS_ROLE">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="T_SYS_USER">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Age" Type="int" Nullable="false" />
+          <Property Name="Birthday" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_T_SYS_ROLE_Id">
+          <End Role="T_SYS_ROLE" Type="Self.T_SYS_ROLE" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="T_RS_USER_ROLE" Type="Self.T_RS_USER_ROLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="T_SYS_ROLE">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="T_RS_USER_ROLE">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_T_SYS_USER_Id">
+          <End Role="T_SYS_USER" Type="Self.T_SYS_USER" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="T_RS_USER_ROLE" Type="Self.T_RS_USER_ROLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="T_SYS_USER">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="T_RS_USER_ROLE">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SqlServerCompactEditionTestEntityStoreContainer">
+          <EntitySet Name="T_RS_USER_ROLE" EntityType="Self.T_RS_USER_ROLE" store:Type="Tables" />
+          <EntitySet Name="T_SYS_ROLE" EntityType="Self.T_SYS_ROLE" store:Type="Tables" />
+          <EntitySet Name="T_SYS_USER" EntityType="Self.T_SYS_USER" store:Type="Tables" />
+          <AssociationSet Name="FK_T_SYS_ROLE_Id" Association="Self.FK_T_SYS_ROLE_Id">
+            <End Role="T_SYS_ROLE" EntitySet="T_SYS_ROLE" />
+            <End Role="T_RS_USER_ROLE" EntitySet="T_RS_USER_ROLE" />
+          </AssociationSet>
+          <AssociationSet Name="FK_T_SYS_USER_Id" Association="Self.FK_T_SYS_USER_Id">
+            <End Role="T_SYS_USER" EntitySet="T_SYS_USER" />
+            <End Role="T_RS_USER_ROLE" EntitySet="T_RS_USER_ROLE" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SqlServerCompactEditionTest.Entity" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="T_SYS_USER">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="T_SYS_ROLE" Relationship="SqlServerCompactEditionTest.Entity.T_RS_USER_ROLE" FromRole="T_SYS_USER" ToRole="T_SYS_ROLE" />
+        </EntityType>
+        <EntityContainer Name="MyDbContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="T_SYS_USER" EntityType="Self.T_SYS_USER" />
+          <EntitySet Name="T_SYS_ROLE" EntityType="SqlServerCompactEditionTest.Entity.T_SYS_ROLE" />
+          <AssociationSet Name="T_RS_USER_ROLE" Association="SqlServerCompactEditionTest.Entity.T_RS_USER_ROLE">
+            <End Role="T_SYS_ROLE" EntitySet="T_SYS_ROLE" />
+            <End Role="T_SYS_USER" EntitySet="T_SYS_USER" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="T_SYS_ROLE">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="T_SYS_USER" Relationship="SqlServerCompactEditionTest.Entity.T_RS_USER_ROLE" FromRole="T_SYS_ROLE" ToRole="T_SYS_USER" />
+        </EntityType>
+        <Association Name="T_RS_USER_ROLE">
+          <End Type="SqlServerCompactEditionTest.Entity.T_SYS_ROLE" Role="T_SYS_ROLE" Multiplicity="*" />
+          <End Type="SqlServerCompactEditionTest.Entity.T_SYS_USER" Role="T_SYS_USER" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SqlServerCompactEditionTestEntityStoreContainer" CdmEntityContainer="MyDbContext">
+          <EntitySetMapping Name="T_SYS_USER">
+            <EntityTypeMapping TypeName="SqlServerCompactEditionTest.Entity.T_SYS_USER">
+              <MappingFragment StoreEntitySet="T_SYS_USER">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_SYS_ROLE">
+            <EntityTypeMapping TypeName="SqlServerCompactEditionTest.Entity.T_SYS_ROLE">
+              <MappingFragment StoreEntitySet="T_SYS_ROLE">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="T_RS_USER_ROLE" TypeName="SqlServerCompactEditionTest.Entity.T_RS_USER_ROLE" StoreEntitySet="T_RS_USER_ROLE">
+            <EndProperty Name="T_SYS_USER">
+              <ScalarProperty Name="Id" ColumnName="UserId" />
+            </EndProperty>
+            <EndProperty Name="T_SYS_ROLE">
+              <ScalarProperty Name="Id" ColumnName="RoleId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
