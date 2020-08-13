@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SqlServerCompactEditionTest.Entity.Store" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="T_RS_USER_ROLE">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_SYS_ROLE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_SYS_USER">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Birthday" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_T_SYS_ROLE_Id">
+    <End Role="T_SYS_ROLE" Type="Self.T_SYS_ROLE" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="T_RS_USER_ROLE" Type="Self.T_RS_USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_SYS_ROLE">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="T_RS_USER_ROLE">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_T_SYS_USER_Id">
+    <End Role="T_SYS_USER" Type="Self.T_SYS_USER" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="T_RS_USER_ROLE" Type="Self.T_RS_USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_SYS_USER">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="T_RS_USER_ROLE">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SqlServerCompactEditionTestEntityStoreContainer">
+    <EntitySet Name="T_RS_USER_ROLE" EntityType="Self.T_RS_USER_ROLE" store:Type="Tables" />
+    <EntitySet Name="T_SYS_ROLE" EntityType="Self.T_SYS_ROLE" store:Type="Tables" />
+    <EntitySet Name="T_SYS_USER" EntityType="Self.T_SYS_USER" store:Type="Tables" />
+    <AssociationSet Name="FK_T_SYS_ROLE_Id" Association="Self.FK_T_SYS_ROLE_Id">
+      <End Role="T_SYS_ROLE" EntitySet="T_SYS_ROLE" />
+      <End Role="T_RS_USER_ROLE" EntitySet="T_RS_USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_T_SYS_USER_Id" Association="Self.FK_T_SYS_USER_Id">
+      <End Role="T_SYS_USER" EntitySet="T_SYS_USER" />
+      <End Role="T_RS_USER_ROLE" EntitySet="T_RS_USER_ROLE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

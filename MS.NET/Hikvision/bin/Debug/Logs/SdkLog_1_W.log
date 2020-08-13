@@ -1,0 +1,62 @@
+[2020-08-13 17:03:35.158][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2020-08-13 17:03:35.158][INF] The COM:Core ver is 6.1.4.42, 2020_05_27. Async:1.
+[2020-08-13 17:03:35.158][INF] This HCNetSDK ver is 6.1.4.42 Ver 2020_05_27.
+[2020-08-13 17:03:35.194][INF] Login dev 10.0.5.235:8000.
+[2020-08-13 17:03:35.197][INF] Private connect 10.0.5.235:8000 sock=1400 this=0x604672c cmd=0x10000 port=56305
+[2020-08-13 17:03:35.197][INF] LogonDev1 in[10.0.5.235:8000]
+[2020-08-13 17:03:35.199][INF] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\libeay32.dll], hHandleRet[156958720]
+[2020-08-13 17:03:35.199][DBG] Load libeay32.dll SUCC, Real Path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\libeay32.dll]
+[2020-08-13 17:03:35.199][INF] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\ssleay32.dll], hHandleRet[260767744]
+[2020-08-13 17:03:35.199][DBG] Load ssleay32.dll SUCC, Real Path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\ssleay32.dll]
+[2020-08-13 17:03:35.199][ERR] SSLTRANSAPI::IsAllAPILoaded, OpenSSL_version Unload
+[2020-08-13 17:03:35.199][ERR] OpenSSL, Not All Function Loaded!
+[2020-08-13 17:03:35.200][INF] SSLTRANSAPI::PrintVersion, SSLeay_version info [OpenSSL 1.0.2t  10 Sep 2019]
+[2020-08-13 17:03:35.200][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[0], m_fnClientMethodV23
+[2020-08-13 17:03:36.210][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCVoiceTalk.dll] succ
+[2020-08-13 17:03:36.210][INF] AbilityAnalyze---Init-- start
+[2020-08-13 17:03:36.224][INF] The COM:VoiceTalk ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.226][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCGeneralCfgMgr.dll] succ
+[2020-08-13 17:03:36.226][INF] The COM:HCGeneralCfgMgr ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.227][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCPlayBack.dll] succ
+[2020-08-13 17:03:36.228][INF] The COM:HCPlayback ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.230][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCIndustry.dll] succ
+[2020-08-13 17:03:36.230][INF] The COM:HCIndustry ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.233][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCDisplay.dll] succ
+[2020-08-13 17:03:36.233][INF] The COM:HCDisplay ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.235][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCPreview.dll] succ
+[2020-08-13 17:03:36.235][INF] The COM:Preview ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.240][DBG] load full path[D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom/HCAlarm.dll] succ
+[2020-08-13 17:03:36.240][INF] The COM:HCAlarm ver is 6.1.4.42, 2020_05_27.
+[2020-08-13 17:03:36.242][INF] Private connect 10.0.5.235:8000 sock=1372 this=0x604672c cmd=0x110154 port=56306
+[2020-08-13 17:03:36.291][INF] Private connect 10.0.5.235:8000 sock=1616 this=0x6046d0c cmd=0x30009 port=56308
+[2020-08-13 17:03:36.291][INF] Private connect 10.0.5.235:8000 sock=1608 this=0x604672c cmd=0x30009 port=56307
+[2020-08-13 17:03:36.299][INF] Private connect 10.0.5.235:8000 sock=1644 this=0x6046d0c cmd=0x30009 port=56309
+[2020-08-13 17:03:36.300][INF] Private connect 10.0.5.235:8000 sock=1656 this=0x60472ec cmd=0x30009 port=56310
+[2020-08-13 17:03:36.305][INF] Private connect 10.0.5.235:8000 sock=1668 this=0x60472ec cmd=0x30009 port=56311
+[2020-08-13 17:03:36.309][INF] Private connect 10.0.5.235:8000 sock=1676 this=0x60478cc cmd=0x30009 port=56312
+[2020-08-13 17:03:36.316][INF] Private connect 10.0.5.235:8000 sock=1680 this=0x6047eac cmd=0x30009 port=56313
+[2020-08-13 17:03:36.330][INF] Private connect 10.0.5.235:8000 sock=1680 this=0x6047eac cmd=0x30009 port=56314
+[2020-08-13 17:03:36.342][INF] Private connect 10.0.5.235:8000 sock=1680 this=0x6047eac cmd=0x30009 port=56315
+[2020-08-13 17:03:36.354][INF] Private connect 10.0.5.235:8000 sock=1680 this=0x6047eac cmd=0x30009 port=56316
+[2020-08-13 17:03:36.370][INF] Private connect 10.0.5.235:8000 sock=1688 this=0x6047eac cmd=0x30009 port=56317
+[2020-08-13 17:03:36.379][INF] Private connect 10.0.5.235:8000 sock=1688 this=0x6047eac cmd=0x30009 port=56318
+[2020-08-13 17:03:36.402][INF] Private connect 10.0.5.235:8000 sock=1684 this=0x6047eac cmd=0x30009 port=56319
+[2020-08-13 17:03:36.431][INF] Private connect 10.0.5.235:8000 sock=1684 this=0x6046d0c cmd=0x30009 port=56320
+[2020-08-13 17:03:36.438][INF] Private connect 10.0.5.235:8000 sock=1644 this=0x6047eac cmd=0x30009 port=56321
+[2020-08-13 17:03:36.538][INF] Private connect 10.0.5.235:8000 sock=1692 this=0x604672c cmd=0x30009 port=56322
+[2020-08-13 17:03:36.545][INF] Private connect 10.0.5.235:8000 sock=1676 this=0x60472ec cmd=0x30009 port=56323
+[2020-08-13 17:03:36.555][INF] Private connect 10.0.5.235:8000 sock=1696 this=0x60478cc cmd=0x30009 port=56324
+[2020-08-13 17:03:36.631][INF] Private connect 10.0.5.235:8000 sock=1700 this=0x6046d0c cmd=0x30009 port=56325
+[2020-08-13 17:03:36.663][INF] Private connect 10.0.5.235:8000 sock=1688 this=0x604672c cmd=0x30009 port=56326
+[2020-08-13 17:03:36.671][INF] Private connect 10.0.5.235:8000 sock=1668 this=0x6047eac cmd=0x30009 port=56327
+[2020-08-13 17:03:36.765][INF] Private connect 10.0.5.235:8000 sock=1608 this=0x60472ec cmd=0x30009 port=56328
+[2020-08-13 17:03:36.784][INF] Private connect 10.0.5.235:8000 sock=1676 this=0x60478cc cmd=0x30009 port=56329
+[2020-08-13 17:03:36.831][INF] Private connect 10.0.5.235:8000 sock=1700 this=0x6046d0c cmd=0x30009 port=56330
+[2020-08-13 17:03:36.886][INF] Private connect 10.0.5.235:8000 sock=1668 this=0x604672c cmd=0x30009 port=56331
+[2020-08-13 17:03:36.894][INF] Private connect 10.0.5.235:8000 sock=1688 this=0x60472ec cmd=0x30009 port=56332
+[2020-08-13 17:03:37.041][INF] Private connect 10.0.5.235:8000 sock=1676 this=0x6046d0c cmd=0x30009 port=56333
+[2020-08-13 17:03:37.102][INF] Private connect 10.0.5.235:8000 sock=1668 this=0x604672c cmd=0x30009 port=56334
+[2020-08-13 17:03:37.169][INF] Private connect 10.0.5.235:8000 sock=1676 this=0x6046d0c cmd=0x30009 port=56335
+[2020-08-13 17:03:37.239][INF] Private connect 10.0.5.235:8000 sock=1700 this=0x604672c cmd=0x30009 port=56336
+[2020-08-13 17:03:37.281][INF] Private connect 10.0.5.235:8000 sock=1676 this=0x6046d0c cmd=0x30009 port=56337
+[2020-08-13 17:03:37.356][INF] Private connect 10.0.5.235:8000 sock=1700 this=0x604672c cmd=0x30009 port=56338

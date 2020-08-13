@@ -42,6 +42,12 @@ D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\PlayCtrl.lib
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\Jaya.Hikvision.exe.config
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\Jaya.Hikvision.exe
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\Jaya.Hikvision.pdb
+D:\MS.NET\MS.NET\Hikvision\obj\Debug\Hikvision.csprojAssemblyReference.cache
 D:\MS.NET\MS.NET\Hikvision\obj\Debug\Hikvision.csproj.CoreCompileInputs.cache
 D:\MS.NET\MS.NET\Hikvision\obj\Debug\Jaya.Hikvision.exe
 D:\MS.NET\MS.NET\Hikvision\obj\Debug\Jaya.Hikvision.pdb
+D:\MS.NET\MS.NET\Hikvision\bin\Debug\NLog.config
+D:\MS.NET\MS.NET\Hikvision\bin\Debug\NLog.dll
+D:\MS.NET\MS.NET\Hikvision\bin\Debug\NLog.xml
+D:\MS.NET\MS.NET\Hikvision\obj\Debug\Hikvision.csproj.CopyComplete
+D:\MS.NET\MS.NET\Hikvision\bin\Debug\Images\default.png

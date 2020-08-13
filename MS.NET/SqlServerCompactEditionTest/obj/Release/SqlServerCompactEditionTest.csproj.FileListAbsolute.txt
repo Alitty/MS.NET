@@ -1,0 +1,16 @@
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\App_Data\MyDb.sdf
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\SqlServerCompactEditionTest.exe.config
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\SqlServerCompactEditionTest.exe
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\SqlServerCompactEditionTest.pdb
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\EntityFramework.dll
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\EntityFramework.SqlServer.dll
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\EntityFramework.SqlServerCompact.dll
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\System.Data.SqlServerCe.dll
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\EntityFramework.xml
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\EntityFramework.SqlServer.xml
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\bin\Release\EntityFramework.SqlServerCompact.xml
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\obj\Release\SqlServerCompactEditionTest.csprojAssemblyReference.cache
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\obj\Release\SqlServerCompactEditionTest.csproj.CoreCompileInputs.cache
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\obj\Release\SqlServerCompactEditionTest.csproj.CopyComplete
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\obj\Release\SqlServerCompactEditionTest.exe
+D:\MS.NET\MS.NET\SqlServerCompactEditionTest\obj\Release\SqlServerCompactEditionTest.pdb
