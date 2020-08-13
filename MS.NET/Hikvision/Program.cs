@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hikvision
+namespace Jaya.Hikvision
 {
     public class Program
     {
