@@ -1,3 +1,4 @@
+D:\MS.NET\MS.NET\Hikvision\bin\Release\Images\default.png
 D:\MS.NET\MS.NET\Hikvision\bin\Release\NLog.config
 D:\MS.NET\MS.NET\Hikvision\bin\Release\libs\AudioRender.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Release\libs\EagleEyeRender.dll
