@@ -1,0 +1,72 @@
+date：2020/08/19 16:10:56.698
+level：Info
+logger：Jaya.Hikvision.Common.Log
+machine：JAYAS
+message：初始化SDK开始
+appdomain：0001:Jaya.Hikvision.exe
+assembly-version：1.0.0.0
+basedir：D:\MS.NET\MS.NET\Hikvision\bin\Debug\
+callsite：Jaya.Hikvision.Common.Log.WriteLog
+callsite-linenumber：17
+counter：1
+nlogdir：D:\MS.NET\MS.NET\Hikvision\bin\Debug
+processid：984
+processname：Jaya.Hikvision
+specialfolder：C:\Users\superman\Desktop
+stacktrace：Program.Main => Log.WriteLog
+*****************************************************************************************************************************************
+
+date：2020/08/19 16:10:57.679
+level：Info
+logger：Jaya.Hikvision.Common.Log
+machine：JAYAS
+message：初始化SDK结束
+appdomain：0001:Jaya.Hikvision.exe
+assembly-version：1.0.0.0
+basedir：D:\MS.NET\MS.NET\Hikvision\bin\Debug\
+callsite：Jaya.Hikvision.Common.Log.WriteLog
+callsite-linenumber：17
+counter：2
+nlogdir：D:\MS.NET\MS.NET\Hikvision\bin\Debug
+processid：984
+processname：Jaya.Hikvision
+specialfolder：C:\Users\superman\Desktop
+stacktrace：Program.Main => Log.WriteLog
+*****************************************************************************************************************************************
+
+date：2020/08/19 16:10:57.701
+level：Info
+logger：Jaya.Hikvision.Common.Log
+machine：JAYAS
+message：初始化SDK成功
+appdomain：0001:Jaya.Hikvision.exe
+assembly-version：1.0.0.0
+basedir：D:\MS.NET\MS.NET\Hikvision\bin\Debug\
+callsite：Jaya.Hikvision.Common.Log.WriteLog
+callsite-linenumber：17
+counter：3
+nlogdir：D:\MS.NET\MS.NET\Hikvision\bin\Debug
+processid：984
+processname：Jaya.Hikvision
+specialfolder：C:\Users\superman\Desktop
+stacktrace：Program.Main => Log.WriteLog
+*****************************************************************************************************************************************
+
+date：2020/08/19 16:10:57.716
+level：Info
+logger：Jaya.Hikvision.Common.Log
+machine：JAYAS
+message：用户注册设备【10.0.5.235】开始
+appdomain：0001:Jaya.Hikvision.exe
+assembly-version：1.0.0.0
+basedir：D:\MS.NET\MS.NET\Hikvision\bin\Debug\
+callsite：Jaya.Hikvision.Common.Log.WriteLog
+callsite-linenumber：17
+counter：4
+nlogdir：D:\MS.NET\MS.NET\Hikvision\bin\Debug
+processid：984
+processname：Jaya.Hikvision
+specialfolder：C:\Users\superman\Desktop
+stacktrace：Program.Main => Log.WriteLog
+*****************************************************************************************************************************************
+
