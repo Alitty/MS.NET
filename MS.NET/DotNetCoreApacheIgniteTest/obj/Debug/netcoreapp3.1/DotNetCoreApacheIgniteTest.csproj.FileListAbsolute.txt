@@ -27,7 +27,6 @@ D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\bin\Debug\netcoreapp3.1\Apache.Ignit
 D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\obj\Debug\netcoreapp3.1\DotNetCoreApacheIgniteTest.csprojAssemblyReference.cache
 D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\obj\Debug\netcoreapp3.1\DotNetCoreApacheIgniteTest.AssemblyInfoInputs.cache
 D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\obj\Debug\netcoreapp3.1\DotNetCoreApacheIgniteTest.AssemblyInfo.cs
 D:\MS.NET\MS.NET\DotNetCoreApacheIgniteTest\obj\Debug\netcoreapp3.1\DotNetCoreApacheIgniteTest.csproj.CoreCompileInputs.cache

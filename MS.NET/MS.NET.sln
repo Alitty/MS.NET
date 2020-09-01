@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hikvision", "Hikvision\Hikv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackOrmLite", "ServiceStackOrmLite\ServiceStackOrmLite.csproj", "{3363EB68-ED5C-4361-9A55-A567DFCD5C39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMvc", "WebMvc\WebMvc.csproj", "{3D31FFF6-2319-436D-ABB4-47A5795AF229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMvc.Tests", "WebMvc.Tests\WebMvc.Tests.csproj", "{DC745D93-C3F8-4ECB-8094-68F2D43C0177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{3363EB68-ED5C-4361-9A55-A567DFCD5C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3363EB68-ED5C-4361-9A55-A567DFCD5C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3363EB68-ED5C-4361-9A55-A567DFCD5C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D31FFF6-2319-436D-ABB4-47A5795AF229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D31FFF6-2319-436D-ABB4-47A5795AF229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D31FFF6-2319-436D-ABB4-47A5795AF229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D31FFF6-2319-436D-ABB4-47A5795AF229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC745D93-C3F8-4ECB-8094-68F2D43C0177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC745D93-C3F8-4ECB-8094-68F2D43C0177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC745D93-C3F8-4ECB-8094-68F2D43C0177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC745D93-C3F8-4ECB-8094-68F2D43C0177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
