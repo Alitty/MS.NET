@@ -51,9 +51,13 @@ D:\MS.NET\MS.NET\WebMvc\bin\roslyn\vbc.rsp
 D:\MS.NET\MS.NET\WebMvc\bin\roslyn\VBCSCompiler.exe
 D:\MS.NET\MS.NET\WebMvc\bin\roslyn\VBCSCompiler.exe.config
 D:\MS.NET\MS.NET\WebMvc\bin\Antlr3.Runtime.dll
+D:\MS.NET\MS.NET\WebMvc\bin\EntityFramework.dll
+D:\MS.NET\MS.NET\WebMvc\bin\EntityFramework.SqlServer.dll
 D:\MS.NET\MS.NET\WebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\MS.NET\MS.NET\WebMvc\bin\Microsoft.Web.Infrastructure.dll
 D:\MS.NET\MS.NET\WebMvc\bin\Newtonsoft.Json.dll
+D:\MS.NET\MS.NET\WebMvc\bin\Oracle.ManagedDataAccess.dll
+D:\MS.NET\MS.NET\WebMvc\bin\Oracle.ManagedDataAccess.EntityFramework.dll
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.Helpers.dll
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.Mvc.dll
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.Optimization.dll
@@ -62,6 +66,8 @@ D:\MS.NET\MS.NET\WebMvc\bin\System.Web.WebPages.Deployment.dll
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.WebPages.dll
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.WebPages.Razor.dll
 D:\MS.NET\MS.NET\WebMvc\bin\WebGrease.dll
+D:\MS.NET\MS.NET\WebMvc\bin\EntityFramework.xml
+D:\MS.NET\MS.NET\WebMvc\bin\EntityFramework.SqlServer.xml
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.Helpers.xml
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.Mvc.xml
 D:\MS.NET\MS.NET\WebMvc\bin\System.Web.Optimization.xml

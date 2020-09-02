@@ -1,5 +1,3 @@
-D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\AnalyzeData.dll
-D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\LocalXml.zip
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\Images\default.png
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\NLog.config
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\AudioRender.dll
@@ -7,6 +5,7 @@ D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\EagleEyeRender.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\gdiplus.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCCore.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDK.dll
+D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\AnalyzeData.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\AudioIntercom.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\HCAlarm.dll
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\HCCoreDevCfg.dll
@@ -39,6 +38,7 @@ D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDK.lib
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\HCAlarm.lib
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\HCGeneralCfgMgr.lib
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\HCNetSDKCom\HCPreview.lib
+D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\LocalXml.zip
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\log4cxx.properties
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\libs\PlayCtrl.lib
 D:\MS.NET\MS.NET\Hikvision\bin\Debug\Jaya.Hikvision.exe.config

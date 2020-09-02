@@ -1,6 +1,7 @@
 D:\MS.NET\MS.NET\ILGeneratorTest\bin\Debug\ILGeneratorTest.exe.config
 D:\MS.NET\MS.NET\ILGeneratorTest\bin\Debug\ILGeneratorTest.exe
 D:\MS.NET\MS.NET\ILGeneratorTest\bin\Debug\ILGeneratorTest.pdb
+D:\MS.NET\MS.NET\ILGeneratorTest\obj\Debug\ILGeneratorTest.csprojAssemblyReference.cache
 D:\MS.NET\MS.NET\ILGeneratorTest\obj\Debug\ILGeneratorTest.csproj.CoreCompileInputs.cache
 D:\MS.NET\MS.NET\ILGeneratorTest\obj\Debug\ILGeneratorTest.exe
 D:\MS.NET\MS.NET\ILGeneratorTest\obj\Debug\ILGeneratorTest.pdb

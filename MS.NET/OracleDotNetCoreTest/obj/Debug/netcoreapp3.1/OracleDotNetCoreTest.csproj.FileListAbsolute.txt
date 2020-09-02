@@ -22,6 +22,7 @@ D:\MS.NET\MS.NET\OracleDotNetCoreTest\bin\Debug\netcoreapp3.1\Oracle.EntityFrame
 D:\MS.NET\MS.NET\OracleDotNetCoreTest\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
 D:\MS.NET\MS.NET\OracleDotNetCoreTest\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 D:\MS.NET\MS.NET\OracleDotNetCoreTest\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+D:\MS.NET\MS.NET\OracleDotNetCoreTest\obj\Debug\netcoreapp3.1\OracleDotNetCoreTest.csprojAssemblyReference.cache
 D:\MS.NET\MS.NET\OracleDotNetCoreTest\obj\Debug\netcoreapp3.1\OracleDotNetCoreTest.AssemblyInfoInputs.cache
 D:\MS.NET\MS.NET\OracleDotNetCoreTest\obj\Debug\netcoreapp3.1\OracleDotNetCoreTest.AssemblyInfo.cs
 D:\MS.NET\MS.NET\OracleDotNetCoreTest\obj\Debug\netcoreapp3.1\OracleDotNetCoreTest.csproj.CoreCompileInputs.cache
